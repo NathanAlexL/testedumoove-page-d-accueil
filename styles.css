@@ -1,0 +1,43 @@
+body {
+    font-family: 'Mattone', sans-serif;
+    background-color: #1c2361;
+    color: #c7dceb;
+    margin: 0;
+    padding: 0;
+}
+
+.accueil-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.titre {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titre h1 {
+    font-size: 3em;
+}
+
+.titre h2 {
+    font-size: 1.5em;
+}
+
+.bouton-connexion {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c7dceb;
+    color: #1c2361;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bouton-connexion:hover {
+    background-color: #1c2361;
+    color: #c7dceb;
+}
